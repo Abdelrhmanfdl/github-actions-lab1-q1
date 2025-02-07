@@ -15,6 +15,6 @@ jobs:
 
     - name: Install dependencies
       run: |
-        ls --ltr  
+        ls -ltr  
         chmod 777 requirements.txt
         pip install -r requirements.txt
